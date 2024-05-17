@@ -10,8 +10,8 @@ const NavigationButton = ({ direction, onClick }) => {
   };
 
   return (
-    <button onClick={handleClick} className="w-8 h-8 focus:outline-none bg-white rounded-full">
-      <img src={`${direction}-arrow.png`} alt={`${direction} arrow`} className="w-full h-full" />
+    <button onClick={handleClick} className="w-24 h-24 focus:outline-none bg-white rounded-full opacity-90">
+      <img src={`${direction}-arrow.png`} alt={`${direction} arrow`} className="ml-5 w-12 h-12" />
     </button>
   );
 };
