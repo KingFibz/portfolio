@@ -9,9 +9,9 @@ const Navbar = () => {
     };
 
   return (
-        <div className='relative flex flex-row justify-between items-center bg-bgColor/90 h-40'>
+        <div className='flex justify-between items-center bg-bgColor/90'>
                 {/* Hamburger menu */}
-                <div className="block sm:hidden ml-7">
+                <div className="ml-7 block sm:hidden">
                     <button onClick={toggleMenu} className="h-12 w-12 p-2 focus:outline-none">
                         <img src='/hamburger.png' alt='hamburger menu'/>
                     </button>
@@ -19,16 +19,16 @@ const Navbar = () => {
 
                 {/* Navigation links for small screens */}
                 <div className={`${isMenuOpen ? 'flex flex-col' : 'hidden'}`}>
-                    <a href='/home' className='p-2 hover:cursor-pointer underline underline-offset-4'>Home</a>
-                    <a href='#' className='p-2 hover:cursor-pointer underline underline-offset-4'>About</a>
-                    <a href='#' className='p-2 hover:cursor-pointer underline underline-offset-4'>Portfolio</a>
+                    <a href='/home' className='text-white p-2 hover:cursor-pointer underline underline-offset-4'>Home</a>
+                    <a href='#' className='text-white p-2 hover:cursor-pointer underline underline-offset-4'>About</a>
+                    <a href='#' className='text-white p-2 hover:cursor-pointer underline underline-offset-4'>Portfolio</a>
                 </div>
 
                 {/* Navigation links for medium/large screens */}
-                <div className="font-gara text-xl hidden sm:flex flex-row ml-7">
-                    <a href='/home' className='p-2 hover:cursor-pointer underline underline-offset-4'>Home</a>
-                    <a href='#' className='p-2 hover:cursor-pointer underline underline-offset-4'>About</a>
-                    <a href='#' className='p-2 hover:cursor-pointer underline underline-offset-4'>Portfolio</a>
+                <div className="font-gara text-xl hidden sm:flex flex-row ml-14">
+                    <a href='/home' className='text-white p-2 hover:cursor-pointer underline underline-offset-4'>Home</a>
+                    <a href='#' className='text-white p-2 hover:cursor-pointer underline underline-offset-4'>About</a>
+                    <a href='#' className='text-white p-2 hover:cursor-pointer underline underline-offset-4'>Portfolio</a>
                 </div>
             
             {/* Logo */}
@@ -37,8 +37,8 @@ const Navbar = () => {
             </div>
 
             {/* CV button */}
-            <div className='flex justify-end items-center h-40 mr-7 sm:ml-40'>
-                <button className='font-gara text-xl p-2 hover:cursor-pointer underline underline-offset-4'>CV</button>
+            <div className='flex justify-end items-center h-40 mr-14 sm:ml-40'>
+                <button className='text-white font-gara text-xl p-2 hover:cursor-pointer underline underline-offset-4'>CV</button>
             </div>
         </div>
   )

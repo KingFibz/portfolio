@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 
 
@@ -8,7 +9,7 @@ const HeroSection = () => {
       <div className="flex flex-col items-center justify-center">
         {/* Transparent circle and paragraph */}
         <div className="-mb-28 sm:mb-16 pt-16 w-auto h-auto">
-          <div className="border border-white rounded-full w-60 h-60 flex flex-row items-center justify-center">
+          <div className="border border-secondaryColor rounded-full w-60 h-60 flex flex-row items-center justify-center">
             <p className="text-white font-semibold text-lg sm:-ml-60">Hi, I&apos;m Peter</p>
           </div>
         </div>
@@ -18,7 +19,7 @@ const HeroSection = () => {
           <img
             src="/heroImage.jpg"
             alt="Hero"
-            className="h-full rounded-lg md: p-10"
+            className="h-full rounded-full md: p-10"
           />
         </div>
       </div>

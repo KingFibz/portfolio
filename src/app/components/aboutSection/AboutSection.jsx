@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react';
 
 const AboutSection = () => {
@@ -14,12 +15,12 @@ const AboutSection = () => {
             <span className="block">I provide custom solutions for your websites & mobile apps that meet your requirements and needs.</span>
           </p>
           {/* Call-to-action button */}
-          <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full">Call to Action</button>
+          <button className="bg-buttonBackground hover:bg-blue-600 text-secondaryColor font-bold py-2 px-4 rounded-full">Get In Touch</button>
         </div>
         
         {/* Smaller rectangle with image */}
-        <div className="w-50 -mt-16 md:w-64 h-48  -mb-16">
-          <img src="/aboutImage.jpg" alt="About" className="w-full h-full object-cover" />
+        <div className="w-50 -mt-16 md:w-64 h-48 -mb-16">
+          <img src="/aboutImage.jpg" alt="About" className="w-full h-full rounded-full object-cover" />
         </div>
       </div>
     </div>
