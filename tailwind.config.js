@@ -14,6 +14,7 @@ module.exports = {
     extend: {
       backgroundColor:{
         'bgColor': '#803D3B',
+        'sliderColor': '#CCCCCC'
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

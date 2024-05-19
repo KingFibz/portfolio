@@ -26,9 +26,9 @@ const Navbar = () => {
 
                 {/* Navigation links for medium/large screens */}
                 <div className="font-gara text-xl hidden sm:flex flex-row ml-14">
-                    <a href='/home' className='text-white p-2 hover:cursor-pointer underline underline-offset-4'>Home</a>
-                    <a href='#' className='text-white p-2 hover:cursor-pointer underline underline-offset-4'>About</a>
-                    <a href='#' className='text-white p-2 hover:cursor-pointer underline underline-offset-4'>Portfolio</a>
+                    <a href='/home' className='text-white text-3xl p-2 hover:cursor-pointer underline underline-offset-4'>Home</a>
+                    <a href='#' className='text-white text-3xl p-2 hover:cursor-pointer underline underline-offset-4'>About</a>
+                    <a href='#' className='text-white text-3xl p-2 hover:cursor-pointer underline underline-offset-4'>Portfolio</a>
                 </div>
             
             {/* Logo */}
@@ -38,7 +38,7 @@ const Navbar = () => {
 
             {/* CV button */}
             <div className='flex justify-end items-center h-40 mr-14 sm:ml-40'>
-                <button className='text-white font-gara text-xl p-2 hover:cursor-pointer underline underline-offset-4'>CV</button>
+                <button className='text-white text-3xl font-gara text-xl p-2 hover:cursor-pointer underline underline-offset-4'>CV</button>
             </div>
         </div>
   )

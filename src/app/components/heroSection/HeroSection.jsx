@@ -10,7 +10,7 @@ const HeroSection = () => {
         {/* Transparent circle and paragraph */}
         <div className="-mb-28 sm:mb-16 pt-16 w-auto h-auto">
           <div className="border border-secondaryColor rounded-full w-60 h-60 flex flex-row items-center justify-center">
-            <p className="text-white font-semibold text-lg sm:-ml-60">Hi, I&apos;m Peter</p>
+            <p className="text-white font-semibold text-4xl font-gara sm:-ml-60">Hi, I&apos;m Peter</p>
           </div>
         </div>
         {/* Container for image */}
