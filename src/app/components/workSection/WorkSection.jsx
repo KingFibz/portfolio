@@ -55,7 +55,7 @@ const WorkSection = () => {
               <img
                 src={item.image}
                 alt={item.title}
-                className="w-full h-full rounded-3xl"
+                className="w-full h-full rounded-3xl md:flex flex-col"
               />
             </motion.div>
           ))}
